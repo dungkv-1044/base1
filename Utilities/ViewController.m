@@ -22,7 +22,6 @@
     _lbText.text = @"ABCSAD";
     _lbText.font = [[UIFont alloc] fontHelveticalNeueWithFontSize:30];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -30,7 +29,6 @@
 - (IBAction)btnAdd:(UIButton *)sender {
     NSString *text = self.tfInput.text;
     NSLog(@"Is valid email: %d", [text isStringValidWithLength:6]);
-    
 }
 - (IBAction)btnRead:(UIButton *)sender {
     NSString *text = self.tfInput.text;
