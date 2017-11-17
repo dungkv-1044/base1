@@ -13,6 +13,12 @@
 		C41F06EB1FBD2CEC00AC378D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41F06EA1FBD2CEC00AC378D /* Assets.xcassets */; };
 		C41F06EE1FBD2CEC00AC378D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41F06EC1FBD2CEC00AC378D /* LaunchScreen.storyboard */; };
 		C41F06F11FBD2CEC00AC378D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F06F01FBD2CEC00AC378D /* main.m */; };
+		C41F06FA1FBD2D2E00AC378D /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F06F91FBD2D2E00AC378D /* NSString+extension.m */; };
+		C41F06FD1FBD2DBA00AC378D /* NSDate+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F06FC1FBD2DBA00AC378D /* NSDate+extension.m */; };
+		C41F07001FBD2DD200AC378D /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F06FF1FBD2DD200AC378D /* UILabel+extension.m */; };
+		C41F07031FBD2DE500AC378D /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F07021FBD2DE500AC378D /* UIColor+extension.m */; };
+		C41F07061FBD2DFB00AC378D /* UIFont+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F07051FBD2DFB00AC378D /* UIFont+extension.m */; };
+		C41F07091FBD44EC00AC378D /* UITableViewController+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F07081FBD44EC00AC378D /* UITableViewController+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		C41F06ED1FBD2CEC00AC378D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C41F06EF1FBD2CEC00AC378D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41F06F01FBD2CEC00AC378D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C41F06F81FBD2D2E00AC378D /* NSString+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		C41F06F91FBD2D2E00AC378D /* NSString+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
+		C41F06FB1FBD2DBA00AC378D /* NSDate+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+extension.h"; sourceTree = "<group>"; };
+		C41F06FC1FBD2DBA00AC378D /* NSDate+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+extension.m"; sourceTree = "<group>"; };
+		C41F06FE1FBD2DD200AC378D /* UILabel+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+extension.h"; sourceTree = "<group>"; };
+		C41F06FF1FBD2DD200AC378D /* UILabel+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+extension.m"; sourceTree = "<group>"; };
+		C41F07011FBD2DE500AC378D /* UIColor+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
+		C41F07021FBD2DE500AC378D /* UIColor+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
+		C41F07041FBD2DFB00AC378D /* UIFont+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+extension.h"; sourceTree = "<group>"; };
+		C41F07051FBD2DFB00AC378D /* UIFont+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+extension.m"; sourceTree = "<group>"; };
+		C41F07071FBD44EC00AC378D /* UITableViewController+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+extension.h"; sourceTree = "<group>"; };
+		C41F07081FBD44EC00AC378D /* UITableViewController+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		C41F06E01FBD2CEC00AC378D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C41F06F71FBD2CFA00AC378D /* Utilities */,
 				C41F06E11FBD2CEC00AC378D /* AppDelegate.h */,
 				C41F06E21FBD2CEC00AC378D /* AppDelegate.m */,
 				C41F06E41FBD2CEC00AC378D /* ViewController.h */,
@@ -67,6 +86,25 @@
 				C41F06EC1FBD2CEC00AC378D /* LaunchScreen.storyboard */,
 				C41F06EF1FBD2CEC00AC378D /* Info.plist */,
 				C41F06F01FBD2CEC00AC378D /* main.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C41F06F71FBD2CFA00AC378D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C41F06F81FBD2D2E00AC378D /* NSString+extension.h */,
+				C41F06F91FBD2D2E00AC378D /* NSString+extension.m */,
+				C41F06FB1FBD2DBA00AC378D /* NSDate+extension.h */,
+				C41F06FC1FBD2DBA00AC378D /* NSDate+extension.m */,
+				C41F06FE1FBD2DD200AC378D /* UILabel+extension.h */,
+				C41F06FF1FBD2DD200AC378D /* UILabel+extension.m */,
+				C41F07011FBD2DE500AC378D /* UIColor+extension.h */,
+				C41F07021FBD2DE500AC378D /* UIColor+extension.m */,
+				C41F07041FBD2DFB00AC378D /* UIFont+extension.h */,
+				C41F07051FBD2DFB00AC378D /* UIFont+extension.m */,
+				C41F07071FBD44EC00AC378D /* UITableViewController+extension.h */,
+				C41F07081FBD44EC00AC378D /* UITableViewController+extension.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -142,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41F07031FBD2DE500AC378D /* UIColor+extension.m in Sources */,
+				C41F07001FBD2DD200AC378D /* UILabel+extension.m in Sources */,
+				C41F07061FBD2DFB00AC378D /* UIFont+extension.m in Sources */,
 				C41F06E61FBD2CEC00AC378D /* ViewController.m in Sources */,
+				C41F06FD1FBD2DBA00AC378D /* NSDate+extension.m in Sources */,
 				C41F06F11FBD2CEC00AC378D /* main.m in Sources */,
 				C41F06E31FBD2CEC00AC378D /* AppDelegate.m in Sources */,
+				C41F06FA1FBD2D2E00AC378D /* NSString+extension.m in Sources */,
+				C41F07091FBD44EC00AC378D /* UITableViewController+extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

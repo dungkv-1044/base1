@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "NSString+extension.h"
+#import "UIColor+extension.h"
+#import "UIFont+extension.h"
 @interface ViewController ()
 
 @end
@@ -17,12 +19,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _lbText.text = @"ABCSAD";
+    _lbText.font = [[UIFont alloc] fontHelveticalNeueWithFontSize:30];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnAdd:(UIButton *)sender {
+    NSString *text = self.tfInput.text;
+    NSLog(@"Is valid email: %d", [text isStringValidWithLength:6]);
+    
+}
+- (IBAction)btnRead:(UIButton *)sender {
+    NSString *text = self.tfInput.text;
+  NSLog(@"Is valid phone: %d", text.isValidPhoneNumber);
+    
 }
 
 
